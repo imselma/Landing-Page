@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #cce9fb;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+.section-wrepper{
+  min-width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.name-wrapper{
+  display: flex;
+  align-items: center;
+}
+
+.toolbar{
+  display: flex;
+  justify-content: space-between;
+}
+
+.section:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.sections{
+  color: rgb(21, 21, 83);
+  padding: 30px;
+  border: 1px solid  rgb(21, 21, 83) ;
+  margin: 10px;
+
+}
+
+.content{
+  text-align: justify;
+}
+
